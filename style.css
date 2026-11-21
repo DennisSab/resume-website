@@ -109,3 +109,17 @@ ul {
         align-items: flex-start;
     }
 }
+
+/* Print / PDF: one clean A4 page */
+@media print {
+    @page { size: A4; margin: 12mm; }
+    body { background: white; }
+    .container { margin: 0; padding: 0; box-shadow: none; border-radius: 0; max-width: none; }
+    h1 { font-size: 24px; padding-bottom: 6px; }
+    .profile-pic { width: 90px; height: 90px; }
+    h2 { font-size: 16px; margin: 10px 0 6px; padding-bottom: 3px; }
+    h3 { font-size: 14px; margin: 6px 0; }
+    p, ul { line-height: 1.35; font-size: 12px; margin: 4px 0; }
+    a { color: #0077cc; }
+    h2, li { break-inside: avoid; }
+}
