@@ -115,15 +115,16 @@ ul {
     @page { size: A4; margin: 12mm; }
     body { background: white; }
     .container { margin: 0; padding: 0; box-shadow: none; border-radius: 0; max-width: none; }
-    h1 { font-size: 24px; padding-bottom: 6px; }
-    .profile-pic { width: 90px; height: 90px; }
-    h2 { font-size: 16px; margin: 10px 0 6px; padding-bottom: 3px; }
-    h3 { font-size: 14px; margin: 6px 0; }
-    p, ul { line-height: 1.35; font-size: 12px; margin: 4px 0; }
+    h1 { font-size: 28px; padding-bottom: 8px; }
+    .profile-pic { width: 105px; height: 105px; }
+    h2 { font-size: 18px; margin: 14px 0 7px; padding-bottom: 4px; }
+    h3 { font-size: 15px; margin: 8px 0; }
+    p, ul { line-height: 1.45; font-size: 13px; margin: 4px 0; }
+    li { margin-bottom: 3px; }
     a { color: #0077cc; }
     h2, li { break-inside: avoid; }
     .container { flex-wrap: nowrap; flex-direction: row; }
-    .main-content { flex: 2; padding-right: 20px; }
+    .main-content { flex: 3; padding-right: 20px; }
     .sidebar { flex: 1; padding-left: 20px; border-left: 2px solid #ddd; }
     .header { flex-direction: row; align-items: center; }
     h3 img { display: none; }
